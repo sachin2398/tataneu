@@ -18,37 +18,6 @@ const Footer = () => {
                 </div>
         </div>
 
-        {/* <div className="footer_links_div">
-          <a href="#">
-            <p>Individual project</p>
-          </a>
-          <a href="#">
-            <p>Payment</p>
-          </a>
-          <a href="#">
-            <p>Portfolio</p>
-          </a>
-          <a href="#">
-            <p>Dubai</p>
-          </a>
-          <a href="#">
-            <p>Site Map</p>
-          </a>
-        </div>
-        <div className="footer_links_div">
-          <a href="#">
-            <p>Delivery</p>
-          </a>
-          <a href="#">
-            <p>Blog</p>
-          </a>
-          <a href="#">
-            <p>About Us</p>
-          </a>
-          <a href="#">
-            <p>Contacts</p>
-          </a>
-        </div> */}
         
 <div className="footerinsidesamediv">
 <div className="footer_links_div">
@@ -84,19 +53,7 @@ const Footer = () => {
                    
                     
         </div>
-</div>
-       
-
-        {/* <hr></hr> */}
-
-        {/* <div className='footer_below'>
-          <div className='footer-copyright'>
-            <p>Moscow © 2007–2023 "WOOD FANS®" - furniture production. All rights reserved.</p>
-
-          </div>
-
-
-        </div> */}
+</div>          
       </div>
     </footer>
   );
