@@ -2,7 +2,7 @@
     import tatalogo from "../assets/tataneublack.png"
     import { useState } from "react";
 
-
+    import { BsList, BsX } from "react-icons/bs";
     const Navbar = () => {
 
         const [menuDisplay, setMenuDisplay] = useState('none');
@@ -65,6 +65,9 @@
                     <div className="dot"></div>
                     <div className="dot"></div>
                     <div className="dot"></div>
+                     {/* <BsList
+                  className="w-20 h-20"
+                /> */}
                 </button>
                 <div style={{ display: menuDisplay }} className="menu-content" id="menuContent">
                         <a href="#">Offers</a>

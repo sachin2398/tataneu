@@ -90,7 +90,10 @@
         font-size: 28px;
         font-weight: 600;
     }
-  
+    .frame2-next{
+        /* display: flex;
+        justify-content: space-between; */
+    }
     .frame2-next > .handsome-guy img{
         width: 250px;
         height: 250px;

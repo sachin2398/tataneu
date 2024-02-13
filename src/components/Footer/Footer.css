@@ -9,12 +9,9 @@
     background-color:  rgba(33, 33, 33, 1);
     color: white;
     padding: 10px 20px;
-    
 
 }
-a{
-    text-decoration: none;
-}
+
 .footer-left {
     flex: 2;
 }
@@ -46,8 +43,8 @@ margin:1rem ;
 display: flex;
 justify-content: flex-start;
 flex-direction: column;
-color: white;
-gap:20px;
+color: cadetblue;
+gap:10px;
 }
 
 .footerinsidesamediv{
@@ -59,6 +56,9 @@ gap:20px;
     width: 12px;
     height: 22px;
   
+}
+a{
+    text-decoration: none;
 }
 a > h4{
     color:rgba(255, 255, 255, 1);
@@ -80,14 +80,12 @@ a> p{
 .footer_links_div img{
     width: 60px;
 }
-.footer_links_div > a > p{
+.footer_links_div p{
    font-size: 12px;
    line-height: 15px; 
    margin: 0.5rem 0;
    cursor: pointer;
    margin-top: 5px;
-   font-weight: 200;
-   color: white;
 
 }
 
@@ -124,6 +122,21 @@ hr{
     flex-direction: column;
     justify-content: left;
 }
-      
+    
+
+
+    
 }
 
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for responsiveness  
