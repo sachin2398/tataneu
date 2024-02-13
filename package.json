@@ -1,6 +1,6 @@
 {
-  "name": "coding-assignment",
-  "homepage": "https://heyvipul.github.io/coding-assignment",
+  "name": "tataneu",
+  "homepage": "https://sachin2398.github.io/tataneu",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,8 +8,8 @@
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    
-    
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
