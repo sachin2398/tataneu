@@ -1,0 +1,138 @@
+.frame5{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 569px;
+    background-color: rgba(248, 249, 250, 1);
+
+}
+.frame5 .flex-box{
+    display: flex;
+}
+.frame5 > .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frame5 > .heading img{
+    width:  50px;
+    height: 50px;
+}
+.frame5 > .heading p{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 60.63px;
+    align-items: center;
+}
+.frame5  .man-png{
+    width: 368px;
+    height: 383px;
+    margin-left: 201px;
+    margin-top: 35px;
+}
+.frame5 .flex-box >div{
+    display: flex;
+    gap: 15px;
+}
+.frame5 .flex-box >div>div > img{
+    width: 100px;
+    height: 75px;
+}
+.frame5 .flex-box >div>div h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.23px;
+}
+.frame5 .flex-box p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.92px;
+    margin-top: -15px;
+    
+}
+.frame5 .flex-box .div2{
+    margin-top: 10px;
+}
+.frame5 .flex-box label{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(42, 42, 42, 1);
+    opacity: 0.75;
+}
+.frame5 .flex-box .div2 > div{
+    margin-top: 30px;
+    width: 99px;
+    height: 4px;
+    gap: 9px;
+}
+
+@media (max-width:500px) {
+    /* CSS */
+
+.frame5 {
+    width: 100%; /* Adjust to fit the viewport */
+    height: auto; /* Allow height to adjust dynamically */
+     padding: 20px; /*Add padding for better spacing */
+}
+
+.frame5 > .heading {
+    flex-direction: column; /* Adjust for smaller screens */
+    align-items: center; /* Center horizontally */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+}
+
+.frame5 > .heading img {
+    width: 50px;
+    height: 50px;
+}
+
+.frame5 > .heading p {
+    font-size: 32px; /* Decrease font size for headings */
+    line-height: 1.2; /* Adjust line height for better readability */
+}
+.frame5 .flex-box{
+    display: flex;
+    flex-direction: column;
+}
+.frame5 .man-png {
+    width: 100%; /* Adjust width to fit the container */
+    max-width: 368px; /* Limit maximum width */
+    height: auto; /* Allow height to adjust dynamically */
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 20px; /* Add top margin for spacing */
+}
+
+.frame5 .flex-box > div {
+    flex-direction: column; /* Adjust for smaller screens */
+    gap: 10px; /* Decrease gap between elements */
+}
+
+.frame5 .flex-box > div > div > img {
+    width: 60px; /* Decrease image width */
+    height: auto; /* Allow height to adjust proportionally */
+}
+.man-png img{
+    width: 90%; /* Decrease image width */
+    height: auto;
+}
+
+.frame5 .flex-box > div > div h3 {
+    font-size: 20px; /* Decrease font size for headings */
+    line-height: 1.2; /* Adjust line height for better readability */
+}
+
+.frame5 .flex-box p {
+    font-size: 16px; /* Decrease font size for paragraphs */
+    line-height: 1.2; /* Adjust line height for better readability */
+}
+
+.frame5 .flex-box .div2 {
+    margin-top: 10px; /* Adjust top margin for spacing */
+}
+
+.frame5 .flex-box label {
+    text-wrap: wrap;
+    font-size: 14px; /* Decrease font size for labels */
+    line-height: 1.2; /* Adjust line height for better readability */
+}
+
+}

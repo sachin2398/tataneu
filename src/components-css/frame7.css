@@ -1,0 +1,101 @@
+.frame7{
+    /* border: 1px solid red; */
+    width: 1440px;
+    height: 716px;
+}
+.frame7 > .emi{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 354px;
+    height: 61px;
+    margin-left: 80px;
+    margin-top: 74px;
+    gap: 11px;
+    align-items: center;
+}
+.frame7 > .emi > p{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60.63px;  
+}
+.frame7 > .chart-box{
+    display: flex;
+    /* border: 1px solid green; */
+    width: 1280px;
+    height: 466px;
+    margin-left: 80px;
+    margin-top: 50px;
+    /* justify-content: space-evenly; */
+    gap: 200px;
+}
+.frame7 > .chart-box > .first > img{
+    width: 400px;
+    height: 466px;
+    border-radius: 14px;
+}
+.frame7 > .chart-box > .second > img{
+    width: 809px;
+    height: 466px;
+    gap: 19px;
+    margin-top: -10px;
+}
+.frame7  img:hover{
+    cursor: pointer;
+}
+@media (max-width:500px) {
+    /* CSS */
+
+.frame7 {
+    width: 100%; /* Adjust to fit the viewport */
+    height: auto; /* Allow height to adjust dynamically */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.frame7 > .emi {
+    width: 100%; /* Adjust width to fit the container */
+    max-width: 354px; /* Limit maximum width */
+    height: auto; /* Allow height to adjust dynamically */
+    margin: 20px auto; /* Center horizontally and add top margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adjust gap between elements */
+}
+
+.frame7 > .emi > p {
+    font-size: 24px; /* Decrease font size for paragraphs */
+    line-height: 1.2; /* Adjust line height for better readability */
+}
+
+.frame7 > .chart-box {
+    width: 100%; /* Adjust width to fit the container */
+    max-width: 100%; /* Limit maximum width */
+    height: auto; /* Allow height to adjust dynamically */
+    display: flex;
+    flex-direction: column; /* Adjust for smaller screens */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    gap: 20px; /* Adjust gap between elements */
+    margin-top: 20px; /* Add top margin for spacing */
+    margin-left: 0px;
+}
+
+.frame7 > .chart-box > .first > img {
+    width: 100%; /* Adjust width to fit the container */
+    max-width: 400px; /* Limit maximum width */
+    height: auto; /* Allow height to adjust dynamically */
+    border-radius: 14px; /* Maintain border radius */
+}
+
+.frame7 > .chart-box > .second > img {
+    width: 100%; /* Adjust width to fit the container */
+    max-width: 100%; /* Limit maximum width */
+    height: auto; /* Allow height to adjust dynamically */
+    margin-top: -10px; /* Adjust top margin for positioning */
+}
+
+.frame7 img:hover {
+    cursor: pointer; /* Add cursor pointer on hover */
+}
+
+}

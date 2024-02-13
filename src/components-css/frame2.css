@@ -1,0 +1,200 @@
+.frame2{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 723px;
+}
+.frame2 .heading{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 558px;
+    height: 61px;
+    margin-left: 80px;
+    gap: 11px;
+    margin-top: 70px;
+    align-items: center;
+}
+.frame2 > .heading > h2{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 60.63px;
+    text-align: center;
+}
+.frame2-next{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.frame2-next > .handsome-guy img{
+    width: 514px;
+    height: 544px;
+    margin-left: 79px;
+    margin-top: 45px;
+}
+.intrest-group{
+    /* border: 1px solid red; */
+    width: 765px;
+    height: 470px;
+    border-radius: 20px;
+    margin-top: 40px;
+    background-color: rgba(252, 248, 255, 1);
+    margin-right: 50px;
+}
+.intrest-group >.intrest-div{
+    /* border: 1px solid red; */
+    width: 653px;
+    height: 389px;
+    margin-top: 50px;
+    margin-left: 50px;
+  
+}
+
+.intrest-group >.intrest-div  img{
+    width: 24px;
+    height: 24px;
+}
+
+.intrest-group >.intrest-div >div> div{
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34.1px;
+    gap: 9px;
+    margin-top: -20px;
+}
+.intrest-group >.intrest-div >div > p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(119, 116, 121, 1);
+    margin-left: 35px;
+    margin-top: -20px;
+}
+.intrest-group >.intrest-div >div  span{
+    color: rgba(136, 0, 236, 1);
+    font-weight: bold;
+}
+
+@media (max-width:900px) {
+    .frame2{
+        border: 1px solid white;
+        width: 900px;
+        height: 723px;
+    }
+    .frame2 .heading{
+        display: flex;
+        /* border: 1px solid black; */
+        width: 400px;
+        height: 61px;
+        margin-left: 80px;
+    }
+    .frame2 > .heading > h2{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .frame2-next{
+        /* display: flex;
+        justify-content: space-between; */
+    }
+    .frame2-next > .handsome-guy img{
+        width: 250px;
+        height: 250px;
+        margin-left: 79px;
+        margin-top: 45px;
+    }
+    .intrest-group{
+        /* border: 1px solid red; */
+        width: 500px;
+        height: 350px;
+        border-radius: 20px;
+        margin: 20px 0px 40px 30px;
+        /* margin-top: 40px; */
+        background-color: rgba(252, 248, 255, 1);
+        /* margin-right: 50px; */
+    }
+    .intrest-group >.intrest-div{
+        /* border: 1px solid red; */
+        width: 500px;
+        height: 200px;
+        margin-top: 35px;
+        margin-left: 20px;
+      
+    }
+    
+    .intrest-group >.intrest-div  img{
+        width: 15px;
+        height: 15px;
+        
+    }
+    
+    .intrest-group >.intrest-div >div> div{
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .intrest-group >.intrest-div >div > p{
+        font-size: 15px;
+    }
+    .intrest-group >.intrest-div >div  span{
+        color: rgba(136, 0, 236, 1);
+        font-weight: bold;
+    }    
+}
+@media (max-width:500px) {
+    .frame2{
+        border: 1px solid white;
+        width: 100%;
+        height: 600px;
+    }
+    .frame2 .heading{
+        display: flex;
+        /* border: 1px solid black; */
+        width: 360px;
+        height: 61px;
+        margin-left: 20px;
+    }
+    .frame2 > .heading > h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .frame2-next{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .frame2-next > .handsome-guy img{
+        display: none;
+    }
+    .intrest-group{
+        /* border: 1px solid red; */
+        width: 350px;
+    }
+    .intrest-group >.intrest-div{
+        /* border: 1px solid red; */
+        width: 300px;
+        height: 200px;
+        margin-top: 35px;
+        margin-left: 20px; 
+    }
+    
+    .intrest-group >.intrest-div  img{
+        width: 15px;
+        height: 15px;    
+    }
+    .intrest-group >.intrest-div >div{
+        width: 300px;
+    }
+    .intrest-group >.intrest-div >div> div{
+        font-size: 18px;
+    }
+    .disc{
+        text-wrap: wrap;
+    }
+    .intrest-group >.intrest-div >div > p{
+        text-wrap: wrap;
+        font-size: 14px;
+        margin-left: -1px;
+    }
+    .intrest-group >.intrest-div >div  span{
+        color: rgba(136, 0, 236, 1);
+        font-weight: bold;
+    }    
+}

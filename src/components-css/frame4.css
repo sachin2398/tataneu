@@ -1,0 +1,113 @@
+.frame4{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 611px;
+}
+.frame4 > .div1{
+    /* border: 1px solid rebeccapurple; */
+    width: 690px;
+    height: 574.71px;
+    margin-left: 24px;
+}
+.frame4 > .div2{
+    /* border: 1px solid black; */
+    width: 564px;
+    height: 235px;
+    gap: 51px;
+    margin-top: 180px;
+    text-align: center;
+    margin-left: 50px;
+}
+.frame4 > .div2 > .lighting{
+    display: flex;
+    align-items: center;
+    margin-top: -35px;
+}
+.frame4 > .div2 > div .pp{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 60.63px;    
+}
+.frame4 > .div2 .line{
+    width: 536px;
+    height: 19px;
+    margin-left: 14px;
+}
+.frame4 > .div2 >div p{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28..01px;
+    text-align: center;
+}
+.frame4 > .div2 > button{
+    width: 247px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: rgba(136, 0, 236, 1);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    margin-top: 30px;
+}
+@media (max-width:500px) {
+    /* CSS */
+
+.frame4 {
+    display: flex;
+    flex-direction: column; /* Adjust for smaller screens */
+    width: 100%; /* Adjust to fit the viewport */
+    height: auto; /* Allow height to adjust dynamically */
+}
+
+.frame4 > .div1 {
+    width: calc(100% - 48px); /* Adjust width to fit the viewport minus margins */
+    max-width: 690px; /* Limit maximum width */
+    height: auto; /* Allow height to adjust dynamically */
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 24px; /* Add top margin for spacing */
+    margin-bottom: 24px; /* Add bottom margin for spacing */
+}
+.frame4 > .div1 > img{
+    width: 100%;
+}
+
+.frame4 > .div2 {
+    width: calc(100% - 100px); /* Adjust width to fit the viewport minus margins */
+    max-width: 564px; /* Limit maximum width */
+    height: auto; /* Allow height to adjust dynamically */
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 24px; /* Add top margin for spacing */
+}
+
+.frame4 > .div2 > .lighting {
+    margin-top: -20px; /* Adjust margin for positioning */
+}
+
+.frame4 > .div2 > div .pp {
+    font-size: 32px; /* Decrease font size for headings */
+    line-height: 1.2; /* Adjust line height for better readability */
+}
+
+.frame4 > .div2 .line {
+    width: 100%; /* Adjust width to fit the container */
+    height: 10px; /* Decrease height for better visibility */
+    margin-left: 0; /* Remove left margin */
+}
+.line > img{
+    width: 100%;
+}
+.frame4 > .div2 > div p {
+    font-size: 18px; /* Decrease font size for paragraphs */
+    line-height: 1.5; /* Adjust line height for better readability */
+}
+
+.frame4 > .div2 > button {
+    width: 100%; /* Adjust width to fit the container */
+    max-width: 300px; /* Limit maximum width */
+    margin: 20px auto 0; /* Center horizontally and add top margin */
+}
+
+}

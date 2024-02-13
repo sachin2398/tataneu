@@ -1,0 +1,123 @@
+.frame8{
+    border: 1px solid white;
+    width: 1440px;
+    height: 450px;
+}
+.frame8 > .first h3{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 60.63px;
+    margin-left: 80px;
+}
+.frame8 > .first p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 80px;
+}
+.frame8 > .first button{
+    width: 247px;
+    height: 56px;
+    border-radius: 4px;
+    background-color: rgba(136, 0, 236, 1);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    padding: 8px 16px;
+    gap: 8px;
+    margin-left: 80px;
+    border: none;
+}
+.frame8 > .first span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 80px;
+    text-decoration: underline;
+    margin-top: 20px;    
+}
+.frame8 > .second{
+    width: 232.5px;
+    height: 465.01px;
+    margin-left: 848.59px;
+}
+.frame8 > .second .phone{
+    margin-top: -250px;
+}
+.frame8 > .second .two-man{
+    margin-left: -150px;
+    margin-top: -400px
+}
+@media (max-width:500px) {
+    /* CSS */
+
+.frame8 {
+    width: 100%; /* Adjust to fit the viewport */
+    height: auto; /* Allow height to adjust dynamically */
+    padding: 20px; /* Add padding for better spacing */
+    display: flex; /* Display flex for better alignment */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+.frame8 > .first h3 {
+    font-size: 28px; /* Decrease font size for headings */
+    line-height: 1.2; /* Adjust line height for better readability */
+    margin: 0; /* Remove left margin */
+    text-align: center; /* Center text */
+}
+
+.frame8 > .first p {
+    font-size: 16px; /* Decrease font size for paragraphs */
+    line-height: 1.5; /* Adjust line height for better readability */
+    margin: 0; /* Remove left margin */
+    text-align: center; /* Center text */
+}
+
+.frame8 > .first button {
+    width: 100%; /* Adjust width to fit the container */
+    max-width: 300px; /* Limit maximum width */
+    margin-top: 20px; /* Add top margin for spacing */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+    margin: 0;
+}
+
+.frame8 > .first span {
+    font-size: 14px; /* Decrease font size for span */
+    line-height: 1.5; /* Adjust line height for better readability */
+    margin: 0; /* Remove left margin */
+    text-align: center; /* Center text */
+    display: block; /* Make span a block element */
+    text-decoration: underline; /* Add underline decoration */
+}
+
+.frame8 > .second {
+    width: 100%; /* Adjust width to fit the container */
+    max-width: 300px; /* Limit maximum width */
+    display: flex; /* Display flex for better alignment */
+    justify-content: space-between; /* Add space between items */
+    align-items: center; /* Center items vertically */
+    margin-top: 20px; /* Add top margin for spacing */
+    margin: 0;
+}
+
+.frame8 > .second .phone {
+    width: 100%; /* Adjust width to fit the container */
+    height: auto; /* Allow height to adjust dynamically */
+    max-width: 150px; /* Limit maximum width */
+    margin-top: -150px; /* Adjust top margin for positioning */
+}
+
+.frame8 > .second .two-man {
+    width: 100%; /* Adjust width to fit the container */
+    height: auto; /* Allow height to adjust dynamically */
+    max-width: 150px; /* Limit maximum width */
+    margin-top: -250px; /* Adjust top margin for positioning */
+    margin-left: -75px; /* Adjust left margin for positioning */
+}
+
+}
