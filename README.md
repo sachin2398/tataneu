@@ -26,6 +26,7 @@ Tataneu is a simple and responsive homepage website designed for mobile devices 
 | Small Screen           | Large Screen            |
 | ---------------------- | ---------------------- |
 | ![Product](https://github.com/sachin2398/tataneu/assets/113828281/4de12103-e424-4393-a379-5fbc63afad16) | ![Product](https://github.com/sachin2398/tataneu/assets/113828281/842cd3d9-1bc7-4372-8bab-79c756c36e2e)|
+<<<<<<< HEAD
 
 
 
@@ -36,12 +37,14 @@ Tataneu is a simple and responsive homepage website designed for mobile devices 
 
 
 
+=======
+>>>>>>> 5ae0532bbca841388145f030821b49fbd2708d21
 
 
 
-
-
-
-
+> ## Frame 5
+| Small Screen           | Large Screen            |
+| ---------------------- | ---------------------- |
+| ![Product](https://github.com/sachin2398/tataneu/assets/113828281/f44d08f3-8794-4249-8581-8c9f515bd505)| ![Product](https://github.com/sachin2398/tataneu/assets/113828281/e3407417-c2f7-4fdf-932b-f0fca87ca716)|
 
 
